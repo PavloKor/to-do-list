@@ -1,0 +1,35 @@
+html, 
+body { 
+  height: 100%;
+  font-family: sans-serif;
+  background-color: #6565f2;
+}
+.conteiner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.todo-conteiner {
+  width: 80%;
+  height: 60%;
+  padding: 50px;
+  background-color: #131386 ;
+  border-radius: 20px;
+  color: aliceblue;
+  text-align: center;
+  box-sizing: border-box;
+}
+.input-conteiner input {
+  width: 60%;
+height: 30px;
+outline-color: antiquewhite;
+}
+.input-conteiner button {
+  background-color: red;
+  color: aliceblue;
+  height: 36px;
+  border: none;
+  border-radius: 3px;
+}
